@@ -1,0 +1,57 @@
+.skillset-page {
+  
+    display: flex;
+   
+  color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.skillset-page ul li {
+  margin: 5px 0;
+  border-left: 4px solid #f5ff00;
+  padding-left: 10px;
+}
+
+
+ .skillset-container {
+   background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png');
+   background-repeat: repeat;
+   background-size: auto;
+    height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.skill-column {
+  width: 250px;
+  margin: 10px;
+}
+
+.skill-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(148, 148, 148);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.skill-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-column li {
+  margin: 5px 0;
+  position: relative;
+  padding-left: 15px;
+}
+
+.skill-column li::before {
+  content: "•";
+  color: rgb(0, 0, 0);
+  position: absolute;
+  left: 0;
+}
